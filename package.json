@@ -1,0 +1,41 @@
+{
+  "name": "zing-game-platform",
+  "version": "1.0.0",
+  "description": "3D Gaming Platform with Studio Editor, JavaScript Scripting, and Admin Panel",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "npx supabase db push",
+    "db:pull": "npx supabase db pull"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^r128",
+    "@react-three/fiber": "^8.14.0",
+    "@react-three/drei": "^9.88.0",
+    "cannon-es": "^0.20.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "@supabase/auth-helpers-nextjs": "^0.8.0",
+    "typescript": "^5.2.0",
+    "zustand": "^4.4.0",
+    "axios": "^1.6.0",
+    "tailwindcss": "^3.3.0",
+    "lucide-react": "^0.292.0",
+    "framer-motion": "^10.16.0",
+    "sonner": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "@types/three": "^r128",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "eslint": "^8.51.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
